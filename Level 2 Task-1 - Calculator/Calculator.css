@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:darkseagreen;
+}
+
+#title{
+    padding-bottom: 0.5%;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-size: 4vh;
+}
+
+.landing_page{
+    padding-top: 1%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.calculator{
+    margin-left: 10px;
+    width: 25%;
+    border-radius: 25px;
+    background-color: black;
+}
+
+
+.display{
+    border-radius: 25px;
+    padding: 0 2% 2% 2%;
+    text-align: end;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.innerdisplay{
+    background-color: rgba(32, 30, 30, 0.584);
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: -3px -3px 5px rgba(40, 40, 40, 0.651) inset ;
+    margin-bottom: 1%;
+    overflow-wrap: break-word;
+}
+
+#solar{
+    background-color: rgba(29, 5, 5, 0.854);
+    align-self: center;
+    margin: 3% 0 7% 0;
+    width: 50%;
+    border: 2px solid rgba(40, 8, 8, 0.361);
+    height: 5vh;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 3px 3px 4px rgba(40, 40, 40, 0.276);
+}
+
+#first{
+    border-top-left-radius: 3px;
+}
+
+#first{
+    border-bottom-left-radius: 3px;
+}
+
+#last{
+    border-top-right-radius: 3px;
+}
+#last{
+    border-bottom-right-radius: 3px;
+}
+
+.cell{
+    width: 25%;
+    border: 1px solid rgba(36, 8, 8, 0.89);
+}
+
+#cal{
+    text-align: start;
+    padding-bottom: 10%;
+}
+
+#ans{
+    color:antiquewhite;
+}
+
+.display h2{
+    color: white;
+    font-size: 3.6vh;
+}
+
+
+.btns{
+    padding: 10px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(112, 152, 227, 0.84);
+}
+
+.btns-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-1 .btn{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+.btns-2{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.btn21{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn21 .btn{
+    display: flex;
+    gap: 3%;
+    justify-content: start;
+    margin: 1% 0;
+}
+
+
+button{
+    border-radius: 8px;
+    height: 10vh;
+    padding: 2px;
+    width: 24%;
+    font-size: 4vh;
+    background-color: rgba(5, 5, 5, 0.646);
+}
+
+#equal{
+    margin: 1% 0;
+    height: 20.5vh;
+}
+
+.btn21 .btn button{
+    width: 31%;
+}
+
+.num{
+    color: whitesmoke;
+}
+
+.operator{
+    color: orange;
+}
+
+.del{
+    color: greenyellow;
+}
+
+footer{
+    background-color: rgb(136, 90, 148);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3% 0;
+}
+
+
+
+

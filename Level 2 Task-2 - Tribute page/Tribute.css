@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lugrasimo&family=Merienda:wght@300..900&family=Play:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+}
+
+.dynamic-text-shadow {
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+  }
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(61, 59, 59, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.tribute-section {
+    overflow: hidden; 
+}
+
+.tribute-section h2{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.tribute-section>p {
+    font-size: 2.5vh;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    float: right; 
+    width:65%;
+    margin-left: 20px; 
+}
+
+.tribute-section>img {
+    float: left; 
+    width: 30%; 
+}
+
+
+section:hover {
+    transform: scale(1.02);
+    background-color: #f9f9f9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#conclusion img{
+    width: 100%;
+}
+
+#conclusion h2{
+    text-align: center;
+}
+
+#conclusion p{
+    font-size: 2.5vh;
+    font-family: "Play", sans-serif;
+    font-weight: 500;
+}
+
+#quote{
+    text-align: center;
+    font-style: oblique;
+    color: rgb(4, 94, 13);
+    text-shadow: 0.5px 0.5px 1px rgb(151, 20, 3);
+    font-size: larger;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #fff;
+}
+
+section#images img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+p {
+    animation: fadeIn 1s ease-in-out;
+}
+
+#introduction {
+    background-color: #ff9999; 
+}
+
+#early-life {
+    background-color: #ffcc66; 
+}
+
+#contribution {
+    background-color: #66cc99;
+}
+
+#leadership {
+    background-color: #ffff99;
+}
+
+#conclusion {
+    background-color: #ff99ff; 
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+}
