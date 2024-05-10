@@ -1,0 +1,27 @@
+.home {
+    box-sizing: border-box;
+    width: 99vw;
+    height: 89vh;
+    background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+    padding: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    background-color: cadetblue;
+    width: 99vw;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .home {
+      grid-template-columns: 2fr 1fr;
+    }
+  
+  }
