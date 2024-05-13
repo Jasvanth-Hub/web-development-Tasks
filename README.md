@@ -68,5 +68,3 @@ This project is a basic login authentication system developed using React and Re
 ## Contributing
 Contributions are welcome! Feel free to fork the project and submit pull requests.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
