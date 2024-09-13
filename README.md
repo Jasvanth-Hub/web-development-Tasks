@@ -1,5 +1,3 @@
-# OIBSIP
-
 # Web Development Tasks:
 
 This repository contains four web development projects: Calculator, Tribute page, To do list, and Basic Login Authentication System.
