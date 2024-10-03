@@ -30,6 +30,8 @@ The To Do List project is a web application that helps users organize and manage
 - HTML
 - CSS
 - JavaScript
+- React
+- Tailwind CSS
 
 ## Basic Login Authentication System
 
